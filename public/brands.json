@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Google",
+    "image": "https://i.postimg.cc/9MxGJM6J/google-speaker.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung",
+    "image": "https://i.postimg.cc/66zV0pPN/samsung.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Intel",
+    "image": "https://i.postimg.cc/D0WDdmjK/intel-evo-lenovo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Microsoft",
+    "image": "https://i.postimg.cc/dVcLZxn5/micro-audio-dock.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Apple",
+    "image": "https://i.postimg.cc/FKt0RdY0/apple-iphone-12-256gb-blanco.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sony",
+    "image": "https://i.postimg.cc/8CCqDpCj/sony-5-removebg-preview.png"
+  }
+]
