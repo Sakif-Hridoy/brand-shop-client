@@ -41,7 +41,7 @@ const UpdateProduct = props => {
     
         console.log(updateProduct);
 
-        fetch(`http://localhost:5000/product/${_id}`, {
+        fetch(`https://b8a10-brandshop-server-side-sakif-hridoy-main.vercel.app/product/${_id}`, {
           method: "PUT",
           headers: {
             "content-type": "application/json",

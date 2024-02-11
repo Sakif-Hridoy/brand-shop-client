@@ -21,7 +21,7 @@ const MyCart = (props) => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/product/${id}`, {
+        fetch(`https://b8a10-brandshop-server-side-sakif-hridoy-main.vercel.app/product/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
@@ -59,7 +59,7 @@ const MyCart = (props) => {
           <tbody>
             {/* row 1 */}
             {products.map((product) => (
-              <tr key={product._id}>
+              <tr  key={product.brand}>
                 <td className="text-2xl">{product.name}</td>
                 <td className="text-2xl">{product.brand}</td>
                 <td className="text-2xl">{product.price}$</td>

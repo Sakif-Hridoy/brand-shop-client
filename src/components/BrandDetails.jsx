@@ -117,7 +117,7 @@ const BrandDetails = props => {
      <div className="grid lg:grid-cols-3 md:grid-cols-3 mt-20 bg-slate-500 bg-transparent">
         {brandDetail.map((brand) => (
           <div
-            key={brand.id}
+            key={brand.name}
             className="card w-96 bg-base-100 shadow-xl mx-auto m-10"
           >
             <figure>

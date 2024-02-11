@@ -14,7 +14,7 @@ const FeaturedProduct = (props) => {
   const [dataLength,setDatalength] = useState(1);
 
   useEffect(()=>{
-    fetch("http://localhost:5000/products")
+    fetch("https://b8a10-brandshop-server-side-sakif-hridoy-main.vercel.app/products")
     .then((res) => res.json())
     .then((data) => setFeaturedProducts(data));
   },[])

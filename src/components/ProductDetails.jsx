@@ -19,14 +19,15 @@ const ProductDetails = props => {
 
       const image = brandDetail.image;
       const price = brandDetail.price;
+      const brand = brandDetail.brand;
       const name = brandDetail.name;
       const description = brandDetail.description;
 
       const productDetails = {
-        name,price,image,description
+        name,brand,price,image,description
       }
 
-      fetch(`http://localhost:5000/product/${brandDetail._id}`, {
+      fetch(`https://b8a10-brandshop-server-side-sakif-hridoy-main.vercel.app/product/${brandDetail._id}`, {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -55,6 +56,9 @@ const ProductDetails = props => {
               <img className='w-[50%]' src={brandDetail.image} alt="Shoes" />
             </figure>
             <div className="card-body">
+            <h2 className="card-title justify-center">
+                {brandDetail.brand}
+              </h2>
               <h2 className="card-title justify-center">
                 {brandDetail.name}
               </h2>

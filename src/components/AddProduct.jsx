@@ -29,7 +29,7 @@ const AddProduct = props => {
     
         console.log(newProduct);
     
-        fetch('http://localhost:5000/product', {
+        fetch('https://b8a10-brandshop-server-side-sakif-hridoy-main.vercel.app/product', {
           method: "POST",
           headers: {
             "content-type": "application/json",
